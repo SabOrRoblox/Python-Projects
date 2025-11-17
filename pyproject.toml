@@ -8,11 +8,11 @@ license = {text = "MIT"}
 authors = [
     {name = "Your Name", email = "m00263277@gmail.com"}
 ]
-# Здесь перечисляем все зависимости, которые будут автоматически установлены
-dependencies = ["asyncio"]
+dependencies = []
 
 [build-system]
 requires = ["setuptools>=65", "wheel"]
 build-backend = "setuptools.build_meta"
+
 [tool.setuptools.packages.find]
 where = ["cachx"]
