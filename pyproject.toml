@@ -1,0 +1,18 @@
+[project]
+name = "ZeroCache"
+version = "0.1.0"
+description = "Ultra Fast Memory Cache, ttl lfu mru lru"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+# Здесь перечисляем все зависимости, которые будут автоматически установлены
+dependencies = ["asyncio"]
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+where = ["src"]
